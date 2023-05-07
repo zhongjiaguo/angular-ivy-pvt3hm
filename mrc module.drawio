@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T12:38:24.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oz_MQpF3XdT7nirFtNyp" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T02:05:07.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0_OmVXlYliiMxj-yw8au" version="21.2.9" type="github">
   <diagram id="lcY6LWT-MC-6HkmapBUw" name="第 1 页">
-    <mxGraphModel dx="1151" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="911" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x8r1BLscaIDYqUlncxWa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Y2mwY2thFTVQrrob2Md-1" target="8Y2mwY2thFTVQrrob2Md-20">
+        <mxCell id="x8r1BLscaIDYqUlncxWa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Y2mwY2thFTVQrrob2Md-1" target="8Y2mwY2thFTVQrrob2Md-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Y2mwY2thFTVQrrob2Md-1" value="基于图像描述和新闻文本的阅读理解问答模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="8Y2mwY2thFTVQrrob2Md-14" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="565" y="115" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x8r1BLscaIDYqUlncxWa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Y2mwY2thFTVQrrob2Md-15" target="8Y2mwY2thFTVQrrob2Md-1">
+        <mxCell id="x8r1BLscaIDYqUlncxWa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8Y2mwY2thFTVQrrob2Md-15" target="8Y2mwY2thFTVQrrob2Md-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Y2mwY2thFTVQrrob2Md-15" value="船舶类新闻（图文）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
@@ -75,6 +75,57 @@
         </mxCell>
         <mxCell id="8Y2mwY2thFTVQrrob2Md-34" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;检索最相关的单条新闻&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="455" y="446" width="138" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-1" target="o1zn6DV98fy7O84gE_ND-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-1" value="用户输入问题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="47" y="640" width="87" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-2" target="o1zn6DV98fy7O84gE_ND-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-2" value="问题预处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="178" y="640" width="87" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-3" target="o1zn6DV98fy7O84gE_ND-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-3" value="问题与新闻匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="298" y="640" width="87" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-4" target="o1zn6DV98fy7O84gE_ND-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-4" value="本地新闻集" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="247" y="560" width="79" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-5" target="o1zn6DV98fy7O84gE_ND-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-5" value="外部新闻集" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="79" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-8" target="o1zn6DV98fy7O84gE_ND-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-8" value="BM25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#eeeeee;" vertex="1" parent="1">
+          <mxGeometry x="317" y="730" width="49" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-10" target="o1zn6DV98fy7O84gE_ND-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-10" value="模型计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="466.5" y="640" width="87" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-11" value="输出答案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="605" y="640" width="87" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="o1zn6DV98fy7O84gE_ND-13" target="o1zn6DV98fy7O84gE_ND-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1zn6DV98fy7O84gE_ND-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;基于图像描述和新闻文本的阅读理解问答模型&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="386" y="728" width="248" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
